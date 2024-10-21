@@ -38,13 +38,32 @@ a:active{
     text-decoration: none;
 }
 
+.container{
+ padding: 20px;
+ margin: 10PX;
+}
+
 .mapa{
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
 }
+
 h1{
-    font-style: italic;
+    font-style:italic;
     text-align: center;
+}
+
+.informacion{
+    display: flex;
+    justify-content: center;
+
+}
+
+.img_info{
+    width: 360px;
+    height: auto;
+    margin-right: 50px;
+    border-radius: 15px;
 }
