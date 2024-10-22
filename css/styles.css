@@ -19,7 +19,7 @@ a:link{
 }
 
 a:visited{
-    color: rgb(24, 0, 51);
+    color: rgb(98, 0, 209);
     background-color: transparent;
     text-decoration: none;
 }
@@ -30,7 +30,13 @@ a:hover{
     text-decoration: underline;
 }
 
-a:link, a:visited{
+a:active{
+    color: rgb(158, 158, 132);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.regresar:link, .regresar:visited{
     background-color:#2f5f96;
     color: white;
     font-size: small;
@@ -39,11 +45,6 @@ a:link, a:visited{
     text-align: center;
     display: inline-block;
     border-radius: 12px;
-}
-a:active{
-    color: yellow;
-    background-color: transparent;
-    text-decoration: none;
 }
 
 body{
@@ -107,3 +108,4 @@ body{
     border-radius: 20px;
     box-shadow: 2px 2px 8px #d8d6d6;
 }
+
