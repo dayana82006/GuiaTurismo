@@ -13,13 +13,13 @@
     font-style: normal; 
 }
 a:link{
-    color: rgb(0, 15, 231);
+    color: rgb(8, 13, 71);
     text-decoration: none;
     background-color: transparent;
 }
 
 a:visited{
-    color: rgb(98, 0, 209);
+    color: rgb(26, 7, 71);
     background-color: transparent;
     text-decoration: none;
 }
@@ -45,6 +45,7 @@ a:active{
     text-align: center;
     display: inline-block;
     border-radius: 12px;
+    box-shadow: 2px 2px 2px #bdbdbd;
 }
 
 body{
@@ -59,9 +60,10 @@ body{
  margin: 10PX;
  background-color: #a7a59a27;
  border-radius: 5px;
- max-width: 800px;
- 
- 
+ max-width: 900px;
+}
+.containerP{
+    max-width: 900px;
 }
 
 .mapa{
@@ -77,15 +79,21 @@ body{
 }
 
 .especial{
-   
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal; 
     text-align: center;
     text-shadow: 3px 3px 3px #acacac;
-    color: #16304e;
+    color: #1766c0;
 
 }
+
+.contenido{
+    margin-right: 50px;
+    margin-top: -450px
+}
+
+
 
 .informacion{
     display: flex;
@@ -104,8 +112,21 @@ body{
 .img_2{
     width: 300px ;
     height: 200px ;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 8px #d8d6d6;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px #666161;
 }
 
+.img_t{
+    width: auto ;
+    height: 190px ;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px #666161;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
