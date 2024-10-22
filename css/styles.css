@@ -46,9 +46,21 @@ a:active{
     text-decoration: none;
 }
 
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #ffffe980;
+}
+
 .container{
  padding: 20px;
  margin: 10PX;
+ background-color: #a7a59a27;
+ border-radius: 5px;
+ max-width: 800px;
+ 
+ 
 }
 
 .mapa{
@@ -56,6 +68,11 @@ a:active{
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+
+.img_mapa{
+    padding: 20px;
+    border-radius: 30px;
 }
 
 .especial{
@@ -80,12 +97,13 @@ a:active{
     height: auto;
     margin-right: 50px;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px rgb(136, 136, 135);
+    box-shadow: 5px 5px 10px rgb(122, 122, 120);
 }
 
-.gastronomia{
+.img_2{
     width: 300px ;
     height: 200px ;
     padding: 10px;
     border-radius: 20px;
+    box-shadow: 2px 2px 8px #d8d6d6;
 }
