@@ -6,6 +6,13 @@
 #606569
 #383B3D
 #1A2633*/
+h3{
+    color: #d4a142;
+}
+
+h2{
+    color: #e6a62f;
+}
 
 *{
     font-family: "Raleway", sans-serif;
@@ -13,31 +20,31 @@
     font-style: normal; 
 }
 a:link{
-    color: rgb(8, 13, 71);
+    color: rgb(145, 128, 34);
     text-decoration: none;
     background-color: transparent;
 }
 
 a:visited{
-    color: rgb(26, 7, 71);
+    color: rgba(204, 82, 0, 0.568);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover{
-    color: rgb(100, 97, 143);
+    color: rgba(223, 170, 102, 0.596);
     background-color: transparent;
     text-decoration: underline;
 }
 
 a:active{
-    color: rgb(158, 158, 132);
+    color: rgb(116, 116, 70);
     background-color: transparent;
     text-decoration: none;
 }
 
 .regresar:link, .regresar:visited{
-    background-color:#2f5f96;
+    background-color:#d89504cc;
     color: white;
     font-size: small;
     margin: 5%;
@@ -52,18 +59,22 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: #ffffe980;
+    background-color:#ffffff6e;
 }
 
 .container{
  padding: 20px;
  margin: 10PX;
- background-color: #a7a59a27;
+ background-color: #fffeeb70;
  border-radius: 5px;
  max-width: 900px;
 }
 .containerP{
     max-width: 900px;
+}
+
+.gastro{
+    margin-right: 50px;
 }
 
 .mapa{
@@ -79,12 +90,12 @@ body{
 }
 
 .especial{
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Franklin Gothic' , 'Arial Narrow', sans-serif;
     font-weight: 400;
-    font-style: normal; 
+    font-style:initial; 
     text-align: center;
-    text-shadow: 3px 3px 3px #acacac;
-    color: #1766c0;
+    text-shadow: 2px 2px 5px #acacac;
+    color: #e9a30c;
 
 }
 
@@ -102,7 +113,7 @@ body{
 }
 
 .img_info{
-    width: 360px;
+    width: 350px;
     height: auto;
     margin-right: 50px;
     border-radius: 15px;
@@ -114,6 +125,7 @@ body{
     height: 200px ;
     border-radius: 12px;
     box-shadow: 2px 2px 8px #666161;
+    margin-left: 5px ;
 }
 
 .img_t{
